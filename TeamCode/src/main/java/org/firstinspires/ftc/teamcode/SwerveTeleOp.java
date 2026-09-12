@@ -16,8 +16,8 @@ public class SwerveTeleOp extends LinearOpMode {
     private DcMotor frontRight;
     private DcMotor backRight;
 
-    private static final double DRIVE_SPEED_SCALE = 0.4;
-    private static final double PRECISION_OFFSET = -0.2;
+    private static final double DRIVE_SPEED_SCALE = 0.6;
+    private static final double PRECISION_OFFSET = -0.3;
     private static final double FAST_OFFSET = 0.2;
 
     @Override
