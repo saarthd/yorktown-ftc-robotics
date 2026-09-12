@@ -12,7 +12,7 @@ public class intakeTestTeleOp extends LinearOpMode {
 
     private DcMotor testMotor;
 
-    private static final double MAX_SPEED = 0.5; /* speed when R2 is fully pressed */
+    private static final double MAX_SPEED = 1.0; /* speed when R2 is fully pressed */
 
     @Override
     public void runOpMode() {
