@@ -19,7 +19,7 @@ public class StraightAuto extends LinearOpMode {
     private static final double REV_COUNT = 537.7; /* encoder ticks per revolution 19.2:1 */
     private static final double FORWARD_DIST = 1; /* meters forward in auto */
     private static final double WHEEL_DIAMETER = 0.104; /* wheel size for distance */
-    private static final double POWER = 0.2; /* motor power set */
+    private static final double POWER = 0.4; /* motor power set */
 
     @Override
     public void runOpMode() {
