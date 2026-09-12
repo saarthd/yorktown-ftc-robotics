@@ -126,5 +126,5 @@ public class StraightAuto extends LinearOpMode {
         telemetry.addLine("Movement Complete");
         telemetry.addData("Time Taken: ", timeTaken);
         telemetry.update();
-    };
+    }
 }
