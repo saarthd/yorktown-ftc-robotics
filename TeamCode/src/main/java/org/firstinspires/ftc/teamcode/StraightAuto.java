@@ -8,7 +8,8 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 
 @Autonomous(
         name="StraightAuto",
-        group="One"
+        group="One",
+        preselectTeleOp = "Swerve TeleOp"
 )
 public class StraightAuto extends LinearOpMode {
     private DcMotor frontLeft; /* motor0 */
