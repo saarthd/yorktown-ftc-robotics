@@ -19,6 +19,7 @@ public class intakeTestTeleOp extends LinearOpMode {
 
         testMotor = hardwareMap.get(DcMotor.class, "motor0");
 
+        testMotor.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
         testMotor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
         testMotor.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
 
